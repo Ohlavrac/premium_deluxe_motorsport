@@ -1,3 +1,5 @@
+import 'package:premium_deluxe_motorsport/domain/entities/contact_entity.dart';
+
 class VehicleEntity {
   int? id;
   String? type;
@@ -11,6 +13,7 @@ class VehicleEntity {
   int? gears;
   String? transmition;
   int? storage;
+  List<ContactEntity>? contactsEntity;
 
   VehicleEntity(
       {this.id,
@@ -24,5 +27,6 @@ class VehicleEntity {
       this.drivetrain,
       this.gears,
       this.transmition,
-      this.storage});
+      this.storage,
+      this.contactsEntity});
 }

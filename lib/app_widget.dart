@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => VehicleProvider())
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         initialRoute: "/home",
         routes: {
           "/home": (context) => const HomeScreen(),

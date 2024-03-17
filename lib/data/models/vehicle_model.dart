@@ -1,3 +1,4 @@
+import 'package:premium_deluxe_motorsport/data/models/contact_model.dart';
 import 'package:premium_deluxe_motorsport/domain/entities/vehicle_entity.dart';
 
 class VehicleModel extends VehicleEntity{
@@ -13,6 +14,7 @@ class VehicleModel extends VehicleEntity{
   int? gears;
   String? transmition;
   int? storage;
+  List<ContactModel>? contacts;
 
   VehicleModel(
       {this.id,
@@ -26,7 +28,8 @@ class VehicleModel extends VehicleEntity{
       this.drivetrain,
       this.gears,
       this.transmition,
-      this.storage});
+      this.storage,
+      this.contacts});
 
   VehicleModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -41,6 +44,12 @@ class VehicleModel extends VehicleEntity{
     gears = json['gears'];
     transmition = json['transmition'];
     storage = json['storage'];
+    if (json['contacts'] != null) {
+      contacts = <ContactModel>[];
+      json['contacts'].forEach((v) {
+        contacts!.add(new ContactModel.fromJson(v));
+      });
+    }
   }
 
   Map<String, dynamic> toJson() {
@@ -57,6 +66,9 @@ class VehicleModel extends VehicleEntity{
     data['gears'] = this.gears;
     data['transmition'] = this.transmition;
     data['storage'] = this.storage;
+    if (this.contacts != null) {
+      data['contacts'] = this.contacts!.map((v) => v.toJson()).toList();
+    }
     return data;
   }
 }

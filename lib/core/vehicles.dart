@@ -15,6 +15,24 @@ const List<Map<String, dynamic>> vehiclesJson = [
     "drivetrain": "RWD",
     "gears": 5,
     "transmition": "Manual",
-    "storage": 600
+    "storage": 600,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zeja",
+        "number": "(XXX) XXX-XXXX"
+      },
+      {
+        "name": "Alexis",
+        "number": "(XXX) XXX-XXXX"
+      },
+      {
+        "name": "Maxine",
+        "number": "(XXX) XXX-XXXX"
+      }
+    ]
   },
 ];
