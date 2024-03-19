@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Container(
+                SizedBox(
                   width: double.infinity,
                   height: 870,
                   child: Image.asset("./assets/ads/bikes-ad.png",fit: BoxFit.fill,),
