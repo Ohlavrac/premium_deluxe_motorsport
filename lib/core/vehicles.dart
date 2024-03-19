@@ -22,16 +22,176 @@ const List<Map<String, dynamic>> vehiclesJson = [
         "number": "(550) 359-6357"
       },
       {
-        "name": "Zeja",
-        "number": "(XXX) XXX-XXXX"
+        "name": "Zaja",
+        "number": "(550) 327-5919"
       },
       {
         "name": "Alexis",
-        "number": "(XXX) XXX-XXXX"
+        "number": "(550) 029-8397"
       },
       {
         "name": "Maxine",
-        "number": "(XXX) XXX-XXXX"
+        "number": "(550) 140-5625"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Bicicleta",
+    "name": "BMX",
+    "manufactor": "PDM",
+    "image": "./assets/vehicles/bmx-pdm.png",
+    "sellprice": 3000,
+    "topspeed": 40,
+    "seats": 1,
+    "drivetrain": "RWD",
+    "gears": 1,
+    "transmition": "Manual",
+    "storage": 0,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zaja",
+        "number": "(550) 327-5919"
+      },
+      {
+        "name": "Alexis",
+        "number": "(550) 029-8397"
+      },
+      {
+        "name": "Maxine",
+        "number": "(550) 140-5625"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Bicicleta",
+    "name": "Fixter",
+    "manufactor": "PDM",
+    "image": "./assets/vehicles/fixter-pdm.png",
+    "sellprice": 3000,
+    "topspeed": 40,
+    "seats": 1,
+    "drivetrain": "RWD",
+    "gears": 1,
+    "transmition": "Manual",
+    "storage": 0,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zaja",
+        "number": "(550) 327-5919"
+      },
+      {
+        "name": "Alexis",
+        "number": "(550) 029-8397"
+      },
+      {
+        "name": "Maxine",
+        "number": "(550) 140-5625"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "type": "Bicicleta",
+    "name": "Scorcher",
+    "manufactor": "PDM",
+    "image": "./assets/vehicles/mtb-bike.png",
+    "sellprice": 3000,
+    "topspeed": 40,
+    "seats": 1,
+    "drivetrain": "RWD",
+    "gears": 1,
+    "transmition": "Manual",
+    "storage": 0,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zaja",
+        "number": "(550) 327-5919"
+      },
+      {
+        "name": "Alexis",
+        "number": "(550) 029-8397"
+      },
+      {
+        "name": "Maxine",
+        "number": "(550) 140-5625"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Bicicleta",
+    "name": "Cruiser",
+    "manufactor": "PDM",
+    "image": "./assets/vehicles/vintage-bike-pdm.png",
+    "sellprice": 3000,
+    "topspeed": 40,
+    "seats": 1,
+    "drivetrain": "RWD",
+    "gears": 1,
+    "transmition": "Manual",
+    "storage": 0,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zaja",
+        "number": "(550) 327-5919"
+      },
+      {
+        "name": "Alexis",
+        "number": "(550) 029-8397"
+      },
+      {
+        "name": "Maxine",
+        "number": "(550) 140-5625"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Bicicleta",
+    "name": "Tri-Cycles Race Bike",
+    "manufactor": "PDM",
+    "image": "./assets/vehicles/try-cicle-race-bike.png",
+    "sellprice": 3000,
+    "topspeed": 40,
+    "seats": 1,
+    "drivetrain": "RWD",
+    "gears": 1,
+    "transmition": "Manual",
+    "storage": 0,
+    "contacts": [
+      {
+        "name": "Oliver",
+        "number": "(550) 359-6357"
+      },
+      {
+        "name": "Zaja",
+        "number": "(550) 327-5919"
+      },
+      {
+        "name": "Alexis",
+        "number": "(550) 029-8397"
+      },
+      {
+        "name": "Maxine",
+        "number": "(550) 140-5625"
       }
     ]
   },
