@@ -70,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(
                   width: double.infinity,
                   height: 870,
-                  child: Image.asset("./assets/ads/bikes-ad.png",fit: BoxFit.fill,),
+                  child: Image.asset("./assets/vehicles/bikes.png",fit: BoxFit.fill,),
                 ),
                 const SizedBox(height: 40,),
                 const Text("PROCURE E COMPRE", style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.bold, fontSize: 18),),
